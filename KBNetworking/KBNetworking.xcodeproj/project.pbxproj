@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD25EB491EA5FAB9005DCBF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25EB481EA5FAB9005DCBF1 /* main.m */; };
+		CD25EB4C1EA5FAB9005DCBF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25EB4B1EA5FAB9005DCBF1 /* AppDelegate.m */; };
+		CD25EB4F1EA5FAB9005DCBF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25EB4E1EA5FAB9005DCBF1 /* ViewController.m */; };
+		CD25EB521EA5FAB9005DCBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD25EB501EA5FAB9005DCBF1 /* Main.storyboard */; };
+		CD25EB541EA5FAB9005DCBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25EB531EA5FAB9005DCBF1 /* Assets.xcassets */; };
+		CD25EB571EA5FAB9005DCBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD25EB551EA5FAB9005DCBF1 /* LaunchScreen.storyboard */; };
+		CD25EB621EA5FABA005DCBF1 /* KBNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25EB611EA5FABA005DCBF1 /* KBNetworkingTests.m */; };
+		CD25EB6D1EA5FABA005DCBF1 /* KBNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25EB6C1EA5FABA005DCBF1 /* KBNetworkingUITests.m */; };
+		CD25EB7D1EA60509005DCBF1 /* KBConst.h in Sources */ = {isa = PBXBuildFile; fileRef = CD25EB7A1EA5FD4F005DCBF1 /* KBConst.h */; };
+		CD25EB821EA60E8E005DCBF1 /* KBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25EB811EA60E8E005DCBF1 /* KBRequest.m */; };
+		CDD234021EA9B7C9004D19B7 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD234011EA9B7C9004D19B7 /* cart.png */; };
+		CDEA1AB81EA70C5C005422C0 /* KBAFNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEA1AB71EA70C5C005422C0 /* KBAFNetworkEngine.m */; };
+		CDEA1ABB1EA7604B005422C0 /* KBNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEA1ABA1EA7604B005422C0 /* KBNetworkManager.m */; };
+		F1087F8CC12D5B4405D8B37C /* libPods-KBNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFE4500FA91AA3C965507DF /* libPods-KBNetworking.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD25EB5E1EA5FABA005DCBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD25EB3C1EA5FAB9005DCBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD25EB431EA5FAB9005DCBF1;
+			remoteInfo = KBNetworking;
+		};
+		CD25EB691EA5FABA005DCBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD25EB3C1EA5FAB9005DCBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD25EB431EA5FAB9005DCBF1;
+			remoteInfo = KBNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DFE4500FA91AA3C965507DF /* libPods-KBNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C953A45F197039462C2FCB2C /* Pods-KBNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBNetworking/Pods-KBNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		CD25EB441EA5FAB9005DCBF1 /* KBNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25EB481EA5FAB9005DCBF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD25EB4A1EA5FAB9005DCBF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD25EB4B1EA5FAB9005DCBF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD25EB4D1EA5FAB9005DCBF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD25EB4E1EA5FAB9005DCBF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD25EB511EA5FAB9005DCBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD25EB531EA5FAB9005DCBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD25EB561EA5FAB9005DCBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD25EB581EA5FAB9005DCBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25EB5D1EA5FABA005DCBF1 /* KBNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25EB611EA5FABA005DCBF1 /* KBNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBNetworkingTests.m; sourceTree = "<group>"; };
+		CD25EB631EA5FABA005DCBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25EB681EA5FABA005DCBF1 /* KBNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25EB6C1EA5FABA005DCBF1 /* KBNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBNetworkingUITests.m; sourceTree = "<group>"; };
+		CD25EB6E1EA5FABA005DCBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25EB7A1EA5FD4F005DCBF1 /* KBConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBConst.h; sourceTree = "<group>"; };
+		CD25EB801EA60E8E005DCBF1 /* KBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBRequest.h; sourceTree = "<group>"; };
+		CD25EB811EA60E8E005DCBF1 /* KBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBRequest.m; sourceTree = "<group>"; };
+		CDCC31541EA8814600DB412A /* KBNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBNetworking.h; sourceTree = "<group>"; };
+		CDD234011EA9B7C9004D19B7 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		CDEA1AB61EA70C5C005422C0 /* KBAFNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAFNetworkEngine.h; sourceTree = "<group>"; };
+		CDEA1AB71EA70C5C005422C0 /* KBAFNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAFNetworkEngine.m; sourceTree = "<group>"; };
+		CDEA1AB91EA7604B005422C0 /* KBNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNetworkManager.h; sourceTree = "<group>"; };
+		CDEA1ABA1EA7604B005422C0 /* KBNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNetworkManager.m; sourceTree = "<group>"; };
+		DFE6D51BD08594A501D85633 /* Pods-KBNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBNetworking/Pods-KBNetworking.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD25EB411EA5FAB9005DCBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1087F8CC12D5B4405D8B37C /* libPods-KBNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25EB5A1EA5FABA005DCBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25EB651EA5FABA005DCBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FE209F67C37C2DE42576BC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C953A45F197039462C2FCB2C /* Pods-KBNetworking.debug.xcconfig */,
+				DFE6D51BD08594A501D85633 /* Pods-KBNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8B9FE7DAA44327C5981949D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE4500FA91AA3C965507DF /* libPods-KBNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD25EB3B1EA5FAB9005DCBF1 = {
+			isa = PBXGroup;
+			children = (
+				CD25EB461EA5FAB9005DCBF1 /* KBNetworking */,
+				CD25EB601EA5FABA005DCBF1 /* KBNetworkingTests */,
+				CD25EB6B1EA5FABA005DCBF1 /* KBNetworkingUITests */,
+				CD25EB451EA5FAB9005DCBF1 /* Products */,
+				6FE209F67C37C2DE42576BC4 /* Pods */,
+				A8B9FE7DAA44327C5981949D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD25EB451EA5FAB9005DCBF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD25EB441EA5FAB9005DCBF1 /* KBNetworking.app */,
+				CD25EB5D1EA5FABA005DCBF1 /* KBNetworkingTests.xctest */,
+				CD25EB681EA5FABA005DCBF1 /* KBNetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD25EB461EA5FAB9005DCBF1 /* KBNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CDD234011EA9B7C9004D19B7 /* cart.png */,
+				CD25EB7B1EA5FE5D005DCBF1 /* Core */,
+				CD25EB4A1EA5FAB9005DCBF1 /* AppDelegate.h */,
+				CD25EB4B1EA5FAB9005DCBF1 /* AppDelegate.m */,
+				CD25EB4D1EA5FAB9005DCBF1 /* ViewController.h */,
+				CD25EB4E1EA5FAB9005DCBF1 /* ViewController.m */,
+				CD25EB501EA5FAB9005DCBF1 /* Main.storyboard */,
+				CD25EB531EA5FAB9005DCBF1 /* Assets.xcassets */,
+				CD25EB551EA5FAB9005DCBF1 /* LaunchScreen.storyboard */,
+				CD25EB581EA5FAB9005DCBF1 /* Info.plist */,
+				CD25EB471EA5FAB9005DCBF1 /* Supporting Files */,
+			);
+			path = KBNetworking;
+			sourceTree = "<group>";
+		};
+		CD25EB471EA5FAB9005DCBF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD25EB481EA5FAB9005DCBF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD25EB601EA5FABA005DCBF1 /* KBNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD25EB611EA5FABA005DCBF1 /* KBNetworkingTests.m */,
+				CD25EB631EA5FABA005DCBF1 /* Info.plist */,
+			);
+			path = KBNetworkingTests;
+			sourceTree = "<group>";
+		};
+		CD25EB6B1EA5FABA005DCBF1 /* KBNetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD25EB6C1EA5FABA005DCBF1 /* KBNetworkingUITests.m */,
+				CD25EB6E1EA5FABA005DCBF1 /* Info.plist */,
+			);
+			path = KBNetworkingUITests;
+			sourceTree = "<group>";
+		};
+		CD25EB7B1EA5FE5D005DCBF1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CD25EB7A1EA5FD4F005DCBF1 /* KBConst.h */,
+				CD25EB801EA60E8E005DCBF1 /* KBRequest.h */,
+				CD25EB811EA60E8E005DCBF1 /* KBRequest.m */,
+				CDEA1AB61EA70C5C005422C0 /* KBAFNetworkEngine.h */,
+				CDEA1AB71EA70C5C005422C0 /* KBAFNetworkEngine.m */,
+				CDEA1AB91EA7604B005422C0 /* KBNetworkManager.h */,
+				CDEA1ABA1EA7604B005422C0 /* KBNetworkManager.m */,
+				CDCC31541EA8814600DB412A /* KBNetworking.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD25EB431EA5FAB9005DCBF1 /* KBNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD25EB711EA5FABA005DCBF1 /* Build configuration list for PBXNativeTarget "KBNetworking" */;
+			buildPhases = (
+				76B08C7FD75CAEEC8C659F64 /* [CP] Check Pods Manifest.lock */,
+				CD25EB401EA5FAB9005DCBF1 /* Sources */,
+				CD25EB411EA5FAB9005DCBF1 /* Frameworks */,
+				CD25EB421EA5FAB9005DCBF1 /* Resources */,
+				1DD9782D4DAFB409C2D022E1 /* [CP] Embed Pods Frameworks */,
+				1507CBCCD10412E6E168E913 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBNetworking;
+			productName = KBNetworking;
+			productReference = CD25EB441EA5FAB9005DCBF1 /* KBNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD25EB5C1EA5FABA005DCBF1 /* KBNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD25EB741EA5FABA005DCBF1 /* Build configuration list for PBXNativeTarget "KBNetworkingTests" */;
+			buildPhases = (
+				CD25EB591EA5FABA005DCBF1 /* Sources */,
+				CD25EB5A1EA5FABA005DCBF1 /* Frameworks */,
+				CD25EB5B1EA5FABA005DCBF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD25EB5F1EA5FABA005DCBF1 /* PBXTargetDependency */,
+			);
+			name = KBNetworkingTests;
+			productName = KBNetworkingTests;
+			productReference = CD25EB5D1EA5FABA005DCBF1 /* KBNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD25EB671EA5FABA005DCBF1 /* KBNetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD25EB771EA5FABA005DCBF1 /* Build configuration list for PBXNativeTarget "KBNetworkingUITests" */;
+			buildPhases = (
+				CD25EB641EA5FABA005DCBF1 /* Sources */,
+				CD25EB651EA5FABA005DCBF1 /* Frameworks */,
+				CD25EB661EA5FABA005DCBF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD25EB6A1EA5FABA005DCBF1 /* PBXTargetDependency */,
+			);
+			name = KBNetworkingUITests;
+			productName = KBNetworkingUITests;
+			productReference = CD25EB681EA5FABA005DCBF1 /* KBNetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD25EB3C1EA5FAB9005DCBF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kobe;
+				TargetAttributes = {
+					CD25EB431EA5FAB9005DCBF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CD25EB5C1EA5FABA005DCBF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD25EB431EA5FAB9005DCBF1;
+					};
+					CD25EB671EA5FABA005DCBF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD25EB431EA5FAB9005DCBF1;
+					};
+				};
+			};
+			buildConfigurationList = CD25EB3F1EA5FAB9005DCBF1 /* Build configuration list for PBXProject "KBNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD25EB3B1EA5FAB9005DCBF1;
+			productRefGroup = CD25EB451EA5FAB9005DCBF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD25EB431EA5FAB9005DCBF1 /* KBNetworking */,
+				CD25EB5C1EA5FABA005DCBF1 /* KBNetworkingTests */,
+				CD25EB671EA5FABA005DCBF1 /* KBNetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD25EB421EA5FAB9005DCBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25EB571EA5FAB9005DCBF1 /* LaunchScreen.storyboard in Resources */,
+				CDD234021EA9B7C9004D19B7 /* cart.png in Resources */,
+				CD25EB541EA5FAB9005DCBF1 /* Assets.xcassets in Resources */,
+				CD25EB521EA5FAB9005DCBF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25EB5B1EA5FABA005DCBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25EB661EA5FABA005DCBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1507CBCCD10412E6E168E913 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBNetworking/Pods-KBNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DD9782D4DAFB409C2D022E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBNetworking/Pods-KBNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76B08C7FD75CAEEC8C659F64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD25EB401EA5FAB9005DCBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25EB7D1EA60509005DCBF1 /* KBConst.h in Sources */,
+				CD25EB4F1EA5FAB9005DCBF1 /* ViewController.m in Sources */,
+				CDEA1ABB1EA7604B005422C0 /* KBNetworkManager.m in Sources */,
+				CD25EB821EA60E8E005DCBF1 /* KBRequest.m in Sources */,
+				CD25EB4C1EA5FAB9005DCBF1 /* AppDelegate.m in Sources */,
+				CDEA1AB81EA70C5C005422C0 /* KBAFNetworkEngine.m in Sources */,
+				CD25EB491EA5FAB9005DCBF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25EB591EA5FABA005DCBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25EB621EA5FABA005DCBF1 /* KBNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25EB641EA5FABA005DCBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25EB6D1EA5FABA005DCBF1 /* KBNetworkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD25EB5F1EA5FABA005DCBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD25EB431EA5FAB9005DCBF1 /* KBNetworking */;
+			targetProxy = CD25EB5E1EA5FABA005DCBF1 /* PBXContainerItemProxy */;
+		};
+		CD25EB6A1EA5FABA005DCBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD25EB431EA5FAB9005DCBF1 /* KBNetworking */;
+			targetProxy = CD25EB691EA5FABA005DCBF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD25EB501EA5FAB9005DCBF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD25EB511EA5FAB9005DCBF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD25EB551EA5FAB9005DCBF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD25EB561EA5FAB9005DCBF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD25EB6F1EA5FABA005DCBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD25EB701EA5FABA005DCBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD25EB721EA5FABA005DCBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C953A45F197039462C2FCB2C /* Pods-KBNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KBNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD25EB731EA5FABA005DCBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE6D51BD08594A501D85633 /* Pods-KBNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KBNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD25EB751EA5FABA005DCBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KBNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBNetworking.app/KBNetworking";
+			};
+			name = Debug;
+		};
+		CD25EB761EA5FABA005DCBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KBNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBNetworking.app/KBNetworking";
+			};
+			name = Release;
+		};
+		CD25EB781EA5FABA005DCBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KBNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KBNetworking;
+			};
+			name = Debug;
+		};
+		CD25EB791EA5FABA005DCBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KBNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KBNetworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD25EB3F1EA5FAB9005DCBF1 /* Build configuration list for PBXProject "KBNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25EB6F1EA5FABA005DCBF1 /* Debug */,
+				CD25EB701EA5FABA005DCBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD25EB711EA5FABA005DCBF1 /* Build configuration list for PBXNativeTarget "KBNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25EB721EA5FABA005DCBF1 /* Debug */,
+				CD25EB731EA5FABA005DCBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD25EB741EA5FABA005DCBF1 /* Build configuration list for PBXNativeTarget "KBNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25EB751EA5FABA005DCBF1 /* Debug */,
+				CD25EB761EA5FABA005DCBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD25EB771EA5FABA005DCBF1 /* Build configuration list for PBXNativeTarget "KBNetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25EB781EA5FABA005DCBF1 /* Debug */,
+				CD25EB791EA5FABA005DCBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD25EB3C1EA5FAB9005DCBF1 /* Project object */;
+}
